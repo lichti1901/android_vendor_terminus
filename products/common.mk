@@ -43,6 +43,11 @@ endif
 PRODUCT_COPY_FILES += \
     vendor/terminus/proprietary/common/system/lib/libjni_latinime.so:system/lib/libjni_latinime.so
 
+# Ad blocker
+PRODUCT_COPY_FILES += \
+    vendor/terminus/prebuilt/common/etc/hosts.alt:system/etc/hosts.alt \
+    vendor/terminus/prebuilt/common/etc/hosts.og:system/etc/hosts.og
+
 # stock ui sounds
 PRODUCT_COPY_FILES += \
     vendor/terminus/proprietary/common/system/media/audio/ui/audio_end.ogg:system/media/audio/ui/audio_end.ogg \
