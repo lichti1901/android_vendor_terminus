@@ -30,7 +30,7 @@ PRODUCT_COPY_FILES += \
     frameworks/native/data/etc/android.software.sip.voip.xml:system/etc/permissions/android.software.sip.voip.xml
 
 # STK: overlay common to all devices with telephony
-ifneq ($(filter terminus_hammerhead,$(TARGET_PRODUCT)),)
+ifneq ($(filter terminus_mako terminus_hammerhead,$(TARGET_PRODUCT)),)
 # Build SimToolKit
 PRODUCT_PACKAGES += \
     Stk
