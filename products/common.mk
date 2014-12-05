@@ -25,6 +25,9 @@ endif
 # Common overlay
 PRODUCT_PACKAGE_OVERLAYS += vendor/terminus/overlay/common
 
+# Bootanimation
+PRODUCT_BOOTANIMATION := vendor/terminus/proprietary/common/system/media/bootanimation.zip
+
 # Enable SIP+VoIP on all targets
 PRODUCT_COPY_FILES += \
     frameworks/native/data/etc/android.software.sip.voip.xml:system/etc/permissions/android.software.sip.voip.xml
