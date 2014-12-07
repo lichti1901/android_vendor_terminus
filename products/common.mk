@@ -42,3 +42,30 @@ endif
 # Latin IME lib
 PRODUCT_COPY_FILES += \
     vendor/terminus/proprietary/common/system/lib/libjni_latinime.so:system/lib/libjni_latinime.so
+
+# stock ui sounds
+PRODUCT_COPY_FILES += \
+    vendor/terminus/proprietary/common/system/media/audio/ui/audio_end.ogg:system/media/audio/ui/audio_end.ogg \
+    vendor/terminus/proprietary/common/system/media/audio/ui/audio_initiate.ogg:system/media/audio/ui/audio_initiate.ogg \
+    vendor/terminus/proprietary/common/system/media/audio/ui/camera_click.ogg:system/media/audio/ui/camera_click.ogg \
+    vendor/terminus/proprietary/common/system/media/audio/ui/camera_focus.ogg:system/media/audio/ui/camera_focus.ogg \
+    vendor/terminus/proprietary/common/system/media/audio/ui/Dock.ogg:system/media/audio/ui/Dock.ogg \
+    vendor/terminus/proprietary/common/system/media/audio/ui/Effect_Tick.ogg:system/media/audio/ui/Effect_Tick.ogg \
+    vendor/terminus/proprietary/common/system/media/audio/ui/KeypressDelete.ogg:system/media/audio/ui/KeypressDelete.ogg \
+    vendor/terminus/proprietary/common/system/media/audio/ui/KeypressInvalid.ogg:system/media/audio/ui/KeypressInvalid.ogg \
+    vendor/terminus/proprietary/common/system/media/audio/ui/KeypressReturn.ogg:system/media/audio/ui/KeypressReturn.ogg \
+    vendor/terminus/proprietary/common/system/media/audio/ui/KeypressSpacebar.ogg:system/media/audio/ui/KeypressSpacebar.ogg \
+    vendor/terminus/proprietary/common/system/media/audio/ui/KeypressStandard.ogg:system/media/audio/ui/KeypressStandard.ogg \
+    vendor/terminus/proprietary/common/system/media/audio/ui/Lock.ogg:system/media/audio/ui/Lock.ogg \
+    vendor/terminus/proprietary/common/system/media/audio/ui/LowBattery.ogg:system/media/audio/ui/LowBattery.ogg \
+    vendor/terminus/proprietary/common/system/media/audio/ui/NFCFailure.ogg:system/media/audio/ui/NFCFailure.ogg \
+    vendor/terminus/proprietary/common/system/media/audio/ui/NFCInitiated.ogg:system/media/audio/ui/NFCInitiated.ogg \
+    vendor/terminus/proprietary/common/system/media/audio/ui/NFCSuccess.ogg:system/media/audio/ui/NFCSuccess.ogg \
+    vendor/terminus/proprietary/common/system/media/audio/ui/NFCTransferComplete.ogg:system/media/audio/ui/NFCTransferComplete.ogg \
+    vendor/terminus/proprietary/common/system/media/audio/ui/NFCTransferInitiated.ogg:system/media/audio/ui/NFCTransferInitiated.ogg \
+    vendor/terminus/proprietary/common/system/media/audio/ui/Trusted.ogg:system/media/audio/ui/Trusted.ogg \
+    vendor/terminus/proprietary/common/system/media/audio/ui/Undock.ogg:system/media/audio/ui/Undock.ogg \
+    vendor/terminus/proprietary/common/system/media/audio/ui/Unlock.ogg:system/media/audio/ui/Unlock.ogg \
+    vendor/terminus/proprietary/common/system/media/audio/ui/VideoRecord.ogg:system/media/audio/ui/VideoRecord.ogg \
+    vendor/terminus/proprietary/common/system/media/audio/ui/VideoStop.ogg:system/media/audio/ui/VideoStop.ogg \
+    vendor/terminus/proprietary/common/system/media/audio/ui/WirelessChargingStarted.ogg:system/media/audio/ui/WirelessChargingStarted.ogg
