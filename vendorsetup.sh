@@ -1,3 +1,4 @@
 add_lunch_combo terminus_emulator-eng
 add_lunch_combo terminus_hammerhead-user
 add_lunch_combo terminus_mako-user
+add_lunch_combo terminus_shamu-user
