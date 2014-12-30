@@ -19,3 +19,6 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
 
 # Inherit media effect blobs
 -include vendor/terminus/products/common_media_effects.mk
+
+# Bootanimation
+PRODUCT_BOOTANIMATION := vendor/terminus/proprietary/common/hammerhead/system/media/bootanimation.zip
