@@ -11,8 +11,18 @@ PRODUCT_PROPERTY_OVERRIDES += \
     ro.com.android.wifi-watchlist=GoogleGuest \
     ro.setupwizard.enterprise_mode=1 \
     ro.com.android.dateformat=MM-dd-yyyy \
-    ro.com.android.dataroaming=false
-
+    ro.com.android.dataroaming=false \
+    drm.service.enabled=true \
+    ro.facelock.black_timeout=400 \
+    ro.facelock.det_timeout=1500 \
+    ro.facelock.rec_timeout=2500 \
+    ro.facelock.lively_timeout=2500 \
+    ro.facelock.est_max_time=600 \
+    ro.facelock.use_intro_anim=false \
+    ro.ril.enable.amr.wideband=1 \
+    net.tethering.noprovisioning=true \
+    persist.sys.dun.override=0 
+    
 # Launcher3 supported devices
 ifneq ($(filter terminus_mako terminus_hammerhead terminus_shamu,$(TARGET_PRODUCT)),)
 PRODUCT_PACKAGES += \
