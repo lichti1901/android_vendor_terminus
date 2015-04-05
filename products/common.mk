@@ -21,7 +21,9 @@ PRODUCT_PROPERTY_OVERRIDES += \
     ro.facelock.use_intro_anim=false \
     ro.ril.enable.amr.wideband=1 \
     net.tethering.noprovisioning=true \
-    persist.sys.dun.override=0 
+    persist.sys.dun.override=0 \
+    ro.setupwizard.network_required=false \
+    ro.setupwizard.gservices_delay=-1 \
     
 # Launcher3 supported devices
 ifneq ($(filter terminus_mako terminus_hammerhead terminus_shamu,$(TARGET_PRODUCT)),)
