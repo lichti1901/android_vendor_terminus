@@ -14,7 +14,7 @@ PRODUCT_MANUFACTURER := LGE
 # FIngerprint
 PRODUCT_BUILD_PROP_OVERRIDES += \
     PRODUCT_NAME=occam \
-    BUILD_FINGERPRINT=google/occam/mako:5.1/LMY47D/1743759:user/release-keys \
+    BUILD_FINGERPRINT=google/occam/mako:5.1/LMY47O/1743759:user/release-keys \
     PRIVATE_BUILD_DESC="occam-user 5.1 LMY47D 1743759 release-keys"
 
 # Inherit media effect blobs
