@@ -14,8 +14,8 @@ PRODUCT_MANUFACTURER := motorola
 # Fingerprint
 PRODUCT_BUILD_PROP_OVERRIDES += \
     PRODUCT_NAME=shamu \
-    BUILD_FINGERPRINT=google/shamu/shamu:5.1.1/LMY47Z/1849464:user/release-keys \
-    PRIVATE_BUILD_DESC="shamu-user 5.1.1 LMY47Z 1849464 release-keys"
+    BUILD_FINGERPRINT=google/shamu/shamu:5.1.1/LYZ28EB/1914015:user/release-keys \
+    PRIVATE_BUILD_DESC="shamu-user 5.1.1 LYZ28EB 1914015 release-keys"
 
 # Inherit media effect blobs
 -include vendor/terminus/products/common_media_effects.mk
